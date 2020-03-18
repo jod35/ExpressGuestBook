@@ -1,0 +1,9 @@
+<center><h1>Welcome To My Guest Book</h1></center>
+<div class="container">
+   <center><h3>Guest Book Comments</h3></center>
+   {{#if entries.length}}
+      {{#each entries}}
+          {{title}}  {{body}}
+      {{/each}}
+   {{/if}}
+</div>
